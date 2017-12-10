@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Tempus
-description: Feugiat amet tempus
-image: assets/images/pic02.jpg
+title: 音楽班
+description: Digital Composers
+image: assets/images/groups/composers.png
 ---
 
 Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. 

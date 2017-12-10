@@ -10,6 +10,18 @@
 		border-bottom: solid 1px _palette(border);
 		overflow-x: hidden;
 
+		h3 a {
+			@include vendor('transition', (
+				'text-decoration #{_duration(transition)} ease-in-out'
+			));
+
+			text-decoration: underline;
+			
+			&:hover {
+				text-decoration: transparent;
+			}
+		}
+
 		> .inner {
 			@include vendor('display', 'flex');
 			padding: 0 !important;
@@ -33,7 +45,7 @@
 					position: relative;
 
 					&:before {
-						border-top: solid 1px _palette(border);
+						//border-top: solid 1px _palette(border);
 						content: '';
 						display: block;
 						margin-left: -3em;

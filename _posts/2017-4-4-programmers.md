@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Ipsum
-description: Nisl sed aliquam
-image: assets/images/pic04.jpg
+title: プログラミング班
+description: Programmers
+image: assets/images/groups/programmers.png
 ---
 
 Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. 

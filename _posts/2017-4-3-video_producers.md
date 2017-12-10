@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Magna
-description: Lorem etiam nullam
-image: assets/images/pic03.jpg
+title: 映像班
+description: Video Producers
+image: assets/images/groups/video_producers.png
 ---
 
 ![test image]({{ site.url | absolute_path}}/assets/images/pic03.jpg)

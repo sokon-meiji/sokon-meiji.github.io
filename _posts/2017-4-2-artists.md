@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Aliquam
-description: Ipsum dolor sit amet
-image: assets/images/pic01.jpg
+title: イラスト班
+description: Digital Artists
+image: assets/images/groups/artists.png
 ---
 
 Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. 
