@@ -4,8 +4,15 @@ title_eng: "Comprehensive Contents Creators"
 subtitle: "創造と表現"
 email: "sokon.meiji@gmail.com"
 description: "明治大学 中野キャンパスで活動している公認サークル"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
+author:
+street_address:
+city:
+state:
+zip_code:
+country:
+phone:
 
 # homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
@@ -17,6 +24,14 @@ twitter_url: "https://twitter.com/ccc_sokon"
 blog_url: "http://sokon.hateblo.jp"
 lineat_url: "https://line.me/R/ti/p/%40luq8751d"
 atnd_url: "https://atnd.org/groups/sokon"
+500px_url:
+facebook_url:
+gitlab_url:
+googleplus_url:
+instagram_url:
+linkedin_url:
+pinterest_url:
+slack_url:
 
 # build settings
 markdown: kramdown
