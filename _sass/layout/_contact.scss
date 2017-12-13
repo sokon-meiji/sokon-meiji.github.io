@@ -10,18 +10,6 @@
 		border-bottom: solid 1px _palette(border);
 		overflow-x: hidden;
 
-		h3 a {
-			@include vendor('transition', (
-				'text-decoration #{_duration(transition)} ease-in-out'
-			));
-
-			text-decoration: underline;
-			
-			&:hover {
-				text-decoration: transparent;
-			}
-		}
-
 		> .inner {
 			@include vendor('display', 'flex');
 			padding: 0 !important;
@@ -55,6 +43,18 @@
 					}
 				}
 
+				.contact-method h3 {
+					@include vendor('transition', (
+						'text-decoration #{_duration(transition)} ease-in-out'
+					));
+		
+					text-decoration: underline;
+					
+					&:hover {
+						text-decoration: transparent;
+					}
+				}
+
 				> :first-child {
 					&:before {
 						display: none;
@@ -81,9 +81,6 @@
 				> .split {
 					> * {
 						@include padding(3em, 0, (0, 0, 0, 0));
-
-						&:before {
-						}
 					}
 
 					> :first-child {
