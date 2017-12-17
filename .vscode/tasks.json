@@ -6,7 +6,8 @@
         {
             "label": "jekyll",
             "type": "shell",
-            "command": "jekyll s"
+            "command": "jekyll s",
+            "problemMatcher": []
         }
     ]
 }
