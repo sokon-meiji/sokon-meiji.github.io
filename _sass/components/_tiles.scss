@@ -102,14 +102,6 @@
 				opacity: 0;
 			}
 
-			&:nth-child(5n - 1),
-			&:nth-child(5n) {
-				width: 33%;
-			}
-			&:nth-child(5n - 2) {
-				width: 34%;
-			}
-
 			&:nth-child(6n - 5) {
 				&:before {
 					background-color: _palette(accent1);
