@@ -39,5 +39,5 @@ markdown: kramdown
 sass:
   style: compressed
 
-plugins:
+gems:
   - jekyll-redirect-from
