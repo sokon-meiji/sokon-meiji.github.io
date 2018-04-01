@@ -94,6 +94,9 @@
 				&:before {
 					opacity: 0;
 				}
+				header {
+					opacity: 0;
+				}
 			}
 
 			&.is-transitioning {

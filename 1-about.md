@@ -30,7 +30,9 @@ nav-menu: true
 <!-- Two -->
 <section id="two" class="spotlights">
 	<section>
-		<img src="assets/images/ccc_icon_circle.png" alt="" data-position="center center" />
+		<div class="image">
+			<img src="assets/images/about/activity1.png" alt="" data-position="center center" />
+		</div>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -47,21 +49,9 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<img src="assets/images/ccc_icon_circle.png" alt="" data-position="center center" />
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>合宿</h3>
-				</header>
-				<p>
-                年2回、夏休みと春休みに開催される合宿ではメンバー同士の交流や観光をしています。<br>
-				2017年夏には秩父、長瀞を観光しました。
-                </p>
-			</div>
+		<div class="image">
+	        <img src="assets/images/about/presentation1.png" alt="" data-position="center center" />
 		</div>
-	</section>
-    <section>
-        <img src="assets/images/ccc_icon_circle.png" alt="" data-position="center center" />
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -73,8 +63,28 @@ nav-menu: true
 			</div>
 		</div>
 	</section>
+	<section>
+		<div class="image">
+			<img src="assets/images/about/camp1.png" alt="" data-position="center center" />
+			<img src="assets/images/about/camp2.png" alt="" data-position="center center" />
+		</div>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>合宿</h3>
+				</header>
+				<p>
+                年2回、夏休みと春休みに開催される合宿ではメンバー同士の交流や観光をしています。<br>
+				2017年度は夏に秩父、長瀞観光、春に長野でスキーをしました。
+                </p>
+			</div>
+		</div>
+	</section>
     <section>
-        <img src="assets/images/ccc_icon_circle.png" alt="" data-position="center center" />
+		<div class="image">
+	        <img src="assets/images/about/meidaisai1.png" alt="" data-position="center center" />
+			<img src="assets/images/about/meidaisai2.png" alt="" data-position="center center" />
+		</div>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -90,8 +100,10 @@ nav-menu: true
 			</div>
 		</div>
 	</section>
-    	<section>
-		<img src="assets/images/ccc_icon_circle.png" alt="" data-position="center center" />
+	<section>
+		<div class="image">
+			<img src="assets/images/about/event1.png" alt="" data-position="center center" />
+		</div>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
