@@ -23,7 +23,7 @@ nav-menu: true
 			中野キャンパスで2013年6月に創設し、今年度で6年目になります。
 		</p>
         <ul class="actions">
-            <li><a href="#three" class="button next scrolly">入会する</a></li>
+            <li><a href="#four" class="button next scrolly">入会する</a></li>
         </ul>
 	</div>
 </section>
@@ -160,21 +160,62 @@ nav-menu: true
 <section id="three">
 	<div class="inner">
 		<header class="major">
+			<h2>年間予定</h2>
+		</header>
+		<p><div class="no-margin">
+			<ul>
+				<li>4月
+					<ul>
+						<li>新歓体験会: 班ごとに先輩が一から制作を教えます (任意参加)</li>
+						<li>確定コンパ: 入会した新入生を歓迎する飲み会です (任意参加)</li>
+					</ul>
+				</li>
+				<li>8月
+					<ul>
+						<li>夏合宿: 観光や花火をして交流を深めます (任意参加)</li>
+					</ul>
+				</li>
+				<li>11月
+					<ul>
+						<li>明大祭: 和泉キャンパスの学祭に参加します</li>
+						<li>明大祭おつコン: 明大祭の反省会をします (任意参加)</li>
+						<li>中間発表会: 半年間の成果を発表します</li>
+						<li>中間発表おつコン: お互いの成果を称え合う飲み会です (任意参加)</li>
+					</ul>
+				</li>
+				<li>2月
+					<ul>
+						<li>春合宿: スキーやボードゲームをして交流を深めます (任意参加)</li>
+					</ul>
+				</li>
+				<li>3月
+					<ul>
+						<li>年度末発表会: 一年間の集大成を発表します</li>
+						<li>追いコン: 卒業する4年生を祝う飲み会です (任意参加)</li>
+					</ul>
+				</li>
+			</ul>
+		</div></p>
+		<h5>※ 2017年度</h5>
+		<p>コンパは全て参加任意です。<br>
+		未成年やお酒の弱い人にお酒を勧めることはありません。</p>
+	</div>
+</section>
+<section id="four">
+	<div class="inner">
+		<header class="major">
 			<h2>入会をご希望の方</h2>
 		</header>
 		<p>
 			<a href="https://line.me/R/ti/p/%40luq8751d">LINE@</a>を友だち登録して、DMをお送りください。<br>
+			新歓体験会(4月)などイベント情報も配信しています。
+			質問も受け付けていますので興味がある方は是非登録してください。
+		</p>
+		<p>
         	<a href="https://twitter.com/ccc_sokon">Twitter</a>、もしくは<a href="https://docs.google.com/forms/d/e/1FAIpQLSfzJvGY-KXIyi5A3gJcnGkkSEkPNqVMqs8QeIfJR92753lWnQ/viewform?usp=sf_link">フォーム</a>でも承ります。<br>
         	なお、弊サークルは明治大学の学生以外の方は入会できません。
 		</p>
-		<ul class="actions">
-			<li><a href="https://line.me/R/ti/p/%40luq8751d" class="button">LINE@を友だち登録</a></li>
-		</ul>
-	</div>
-	<div class="inner">
-		<header class="major">
-			<h2>入会までの流れ</h2>
-		</header>
+		<h3>入会までの流れ</h3>
 		<p>
 			<ol>
 				<li>LINE@などから入会を申請する</li>
@@ -186,5 +227,8 @@ nav-menu: true
 		<p>
 			※ 入会申請から1ヶ月経っても初回ガイダンス、Slack講習会、もしくは会費のお支払いが確認できなかった場合、申請は却下されます。
 		</p>
+		<ul class="actions">
+			<li><a href="https://line.me/R/ti/p/%40luq8751d" class="button">LINE@を友だち登録</a></li>
+		</ul>
 	</div>
 </section>
