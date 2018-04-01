@@ -25,6 +25,7 @@
 				display: block;
 				position: relative;
 				width: 30%;
+				margin-top: auto;
 
 				img {
 					border-radius: 0;
@@ -73,11 +74,11 @@
 		@include breakpoint(xlarge) {
 			> section {
 				> .image {
-					width: 40%;
+					width: 45%;
 				}
 
 				> .content {
-					width: 60%;
+					width: 55%;
 				}
 			}
 		}
@@ -99,7 +100,9 @@
 				display: block;
 
 				> .image {
-					width: 100%;
+					width: 75%;
+					padding-top: 2em;
+					margin: auto;
 				}
 
 				> .content {

@@ -24,70 +24,26 @@ author: null
 
 <!-- Two -->
 <section id="two" class="spotlights">
+	{% for post in site.posts limit:site.tiles-count %}
+	{% if site.tiles-source == 'posts' %}
 	<section>
 		<a href="./2017/04/05/composers.html" class="image">
-			<img src="assets/images/groups/composers.png" alt="音楽班" data-position="center center" />
+			<img src="{{ post.image }}" alt="音楽班" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>音楽班</h3>
+					<h3><a href="{{ post.url  | relative_url }}" class="link">{{ post.title }}</a></h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+				<p>{{ post.overview }}</p>
 				<ul class="actions">
-					<li><a href="./2017/04/05/composers.html" class="button">詳しくみる</a></li>
+					<li><a href="{{ post.url  | relative_url }}" class="button">詳しくみる</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
-	<section>
-		<a href="./2017/04/04/programmers.html" class="image">
-			<img src="assets/images/groups/programmers.png" alt="プログラミング班" data-position="top center" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>プログラミング班</h3>
-				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-				<ul class="actions">
-					<li><a href="./2017/04/04/programmers.html" class="button">詳しくみる</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<section>
-		<a href="./2017/04/03/video_producers.html" class="image">
-			<img src="assets/images/groups/video_producers.png" alt="映像班" data-position="25% 25%" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>映像班</h3>
-				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-				<ul class="actions">
-					<li><a href="./2017/04/03/video_producers.html" class="button">詳しくみる</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-    <section>
-		<a href="./2017/04/02/artists.html" class="image">
-			<img src="assets/images/groups/artists.png" alt="イラスト班" data-position="center center" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>イラスト班</h3>
-				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-				<ul class="actions">
-					<li><a href="./2017/04/02/artists.html" class="button">詳しくみる</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
+	{% endif %}
+	{% endfor %}
 </section>
 
 </div>
