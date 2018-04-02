@@ -11,3 +11,5 @@ overview: "プログラムを用いて様々なことを表現します。内容
 ## リンク
 - [Twitter](https://twitter.com/sokon_p)
 - [GitHub](https://github.com/ccc-sokon)
+- [ATND](https://atnd.org/groups/sokonp)
+    - プログラミング班が企画するイベントを公開しています
