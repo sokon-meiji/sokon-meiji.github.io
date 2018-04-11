@@ -1,7 +1,6 @@
 ---
 layout: home
 title: Home
-landing-title: '総合コンテンツ制作サークル'
 description: null
 image: ./assets/images/ccc_icon_circle.png
 author: null
