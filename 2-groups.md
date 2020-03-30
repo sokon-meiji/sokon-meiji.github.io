@@ -27,8 +27,8 @@ author: null
 	{% for post in site.posts limit:site.tiles-count %}
 	{% if site.tiles-source == 'posts' %}
 	<section>
-		<a href="./2017/04/05/composers.html" class="image position-bottom">
-			<img src="{{ post.image }}" alt="音楽班" data-position="center center" />
+		<a href="{{ post.url  | relative_url }}" class="image position-bottom">
+			<img src="{{ post.image }}" alt="{{ post.title }}" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
