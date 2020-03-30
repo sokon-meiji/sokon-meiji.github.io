@@ -17,7 +17,7 @@ author: null
 			<h2>班制度</h2>
 		</header>
 		<p>
-        弊サークルは<a href="./2017/04/05/composers.html">音楽班</a>、<a href="./2017/04/04/programmers.html">プログラミング班</a>、<a href="./2017/04/03/video_producers.html">映像班</a>、<a href="./2017/04/02/artists.html">イラスト班</a>の4つの班に分かれて活動しています。
+        弊サークルは<a href="./2017/04/05/composers.html">音楽班</a>、<a href="./2020/03/30/game_developers.html">ゲーム班</a>、<a href="./2017/04/03/video_producers.html">映像班</a>、<a href="./2017/04/02/artists.html">イラスト班</a>の4つの班に分かれて活動しています。
         </p>
 	</div>
 </section>
