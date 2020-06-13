@@ -207,18 +207,18 @@ nav-menu: true
 			<h2>入会をご希望の方</h2>
 		</header>
 		<p>
-			<a href="https://line.me/R/ti/p/%40luq8751d">LINE@</a>を友だち登録して、DMをお送りください。<br>
+			<a href="https://twitter.com/ccc_sokon">Twitter</a>からDMをお送りください。<br>
 			新歓体験会(4月)などイベント情報も配信しています。
-			質問も受け付けていますので興味がある方は是非登録してください。
+			質問も受け付けていますので興味がある方は是非お声掛けください。
 		</p>
 		<p>
-        	<a href="https://twitter.com/ccc_sokon">Twitter</a>、もしくは<a href="https://docs.google.com/forms/d/e/1FAIpQLSfzJvGY-KXIyi5A3gJcnGkkSEkPNqVMqs8QeIfJR92753lWnQ/viewform?usp=sf_link">フォーム</a>でも承ります。<br>
+        	<a href="https://docs.google.com/forms/d/e/1FAIpQLSfzJvGY-KXIyi5A3gJcnGkkSEkPNqVMqs8QeIfJR92753lWnQ/viewform?usp=sf_link">フォーム</a>でも承ります。<br>
         	なお、弊サークルは明治大学の学生以外の方は入会できません。
 		</p>
 		<h3>入会までの流れ</h3>
 		<p>
 			<ol>
-				<li>LINE@などから入会を申請する</li>
+				<li>TwitterのDMなどから入会を申請する</li>
 				<li>初回ガイダンスとSlack講習会を受講する</li>
 				<li>入会費(500円)、年会費(1000円)を支払う</li>
 				<li>入会完了</li>
@@ -227,8 +227,5 @@ nav-menu: true
 		<p>
 			※ 入会申請から1ヶ月経っても初回ガイダンス、Slack講習会、もしくは会費のお支払いが確認できなかった場合、申請は却下されます。
 		</p>
-		<ul class="actions">
-			<li><a href="https://line.me/R/ti/p/%40luq8751d" class="button">LINE@を友だち登録</a></li>
-		</ul>
 	</div>
 </section>
