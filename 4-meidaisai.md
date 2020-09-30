@@ -1,5 +1,5 @@
 ---
-title: 班紹介
+title: 明大祭（準備中）
 layout: post
 nav-menu: true
 description: null
@@ -14,10 +14,10 @@ author: null
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h2>班制度</h2>
+			<h2>明大祭のまとめページ</h2>
 		</header>
 		<p>
-        弊サークルは<a href="./2017/04/05/composers.html">音楽班</a>、<a href="./2020/03/30/game_developers.html">ゲーム班</a>、<a href="./2017/04/03/video_producers.html">映像班</a>、<a href="./2017/04/02/artists.html">イラスト班</a>の4つの班に分かれて活動しています。
+        各年の明大祭についてのページへのリンクをのせるページ
         </p>
 	</div>
 </section>
@@ -26,7 +26,7 @@ author: null
 <section id="two" class="spotlights">
 	{% for post in site.posts limit:site.tiles-count %}
 	{% if site.tiles-source == 'posts' %}
-	{% if post.type != 'meidaisai' %}
+    {% if post.type == 'meidaisai' %}
 	<section>
 		<a href="{{ post.url  | relative_url }}" class="image position-bottom">
 			<img src="{{ post.image }}" alt="{{ post.title }}" data-position="center center" />
@@ -43,7 +43,7 @@ author: null
 			</div>
 		</div>
 	</section>
-	{% endif %}
+    {% endif %}
 	{% endif %}
 	{% endfor %}
 </section>
