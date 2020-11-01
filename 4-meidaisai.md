@@ -1,5 +1,5 @@
 ---
-title: 明大祭（準備中）
+title: 明大祭アーカイブス
 layout: post
 nav-menu: true
 description: null
@@ -13,11 +13,8 @@ author: null
 <!-- One -->
 <section id="one">
 	<div class="inner">
-		<header class="major">
-			<h2>明大祭のまとめページ</h2>
-		</header>
 		<p>
-        各年の明大祭についてのページへのリンクをのせるページ
+        総合コンテンツ制作サークルが参加した明大祭のアーカイブページです。各年度の実施の様子や作品をご覧いただけます！
         </p>
 	</div>
 </section>
