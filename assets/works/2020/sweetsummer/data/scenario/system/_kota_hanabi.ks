@@ -1,6 +1,0 @@
-[preload  storage="./data/bgimage/fest.jpg"  ]
-[preload  storage="./data/fgimage/chara/5/karin_komarigao.png"  ]
-[preload  storage="./data/fgimage/chara/5/karin_ukiuki_tere.png"  ]
-[preload  storage="./data/fgimage/chara/5/karin_kuchihirakitere.png"  ]
-[preload  storage="./data/fgimage/chara/5/karin_jitome_tere.png"  ]
-[return]

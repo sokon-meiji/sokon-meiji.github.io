@@ -1,6 +1,0 @@
-[preload  storage="./data/bgimage/nakanoStation.jpg"  ]
-[preload  storage="./data/bgimage/aqua.jpg"  ]
-[preload  storage="./data/fgimage/chara/4/haduki_shihuku_odoroki.png"  ]
-[preload  storage="./data/fgimage/chara/4/haduki_shihuku_egao.png"  ]
-[preload  storage="./data/bgimage/station.jpg"  ]
-[return]

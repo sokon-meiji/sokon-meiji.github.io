@@ -1,8 +1,0 @@
-[preload  storage="./data/bgimage/white_back.png"  ]
-[preload  storage="./data/bgimage/univ.jpg"  ]
-[preload  storage="./data/bgimage/avenue.jpg"  ]
-[preload  storage="./data/bgimage/nakanopark.jpg"  ]
-[preload  storage="./data/bgimage/kurumi_cg0_1.png"  ]
-[preload  storage="./data/fgimage/default/Sweet_Summer_logo.png"  ]
-[preload  storage="./data/bgimage/BlackEnding.png"  ]
-[return]

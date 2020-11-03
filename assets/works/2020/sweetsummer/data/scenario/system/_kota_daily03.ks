@@ -1,7 +1,0 @@
-[preload  storage="./data/fgimage/chara/5/karin_kutibiraki.png"  ]
-[preload  storage="./data/fgimage/chara/5/karin_doyagao.png"  ]
-[preload  storage="./data/fgimage/chara/5/karin_bikkuri_tere.png"  ]
-[preload  storage="./data/fgimage/chara/5/karin_hoe.png"  ]
-[preload  storage="./data/fgimage/chara/5/karin_ukiuki.png"  ]
-[preload  storage="./data/fgimage/chara/5/karin_komarigao_tere.png"  ]
-[return]

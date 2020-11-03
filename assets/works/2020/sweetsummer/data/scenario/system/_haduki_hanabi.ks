@@ -1,5 +1,0 @@
-[preload  storage="./data/bgimage/fest.jpg"  ]
-[preload  storage="./data/fgimage/chara/4/haduki_yukata_konwaku.png"  ]
-[preload  storage="./data/fgimage/chara/4/haduki_yukata_egao.png"  ]
-[preload  storage="./data/bgimage/BlackEnding.png"  ]
-[return]

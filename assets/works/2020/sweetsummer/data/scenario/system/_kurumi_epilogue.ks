@@ -1,5 +1,0 @@
-[preload  storage="./data/bgimage/fireworks_new.jpg"  ]
-[preload  storage="./data/fgimage/chara/6/kurumi_yukata_ridicule.png"  ]
-[preload  storage="./data/fgimage/chara/6/kurumi_yukata_smile.png"  ]
-[preload  storage="./data/bgimage/BlackEnding.png"  ]
-[return]

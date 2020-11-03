@@ -1,8 +1,0 @@
-[preload  storage="./data/bgimage/kurumi_cg4_0.png"  ]
-[preload  storage="./data/bgimage/BlackEnding.png"  ]
-[preload  storage="./data/bgimage/themepark.jpg"  ]
-[preload  storage="./data/fgimage/chara/6/kurumi_tere_large.png"  ]
-[preload  storage="./data/bgimage/sunset.jpg"  ]
-[preload  storage="./data/bgimage/park.png"  ]
-[preload  storage="./data/fgimage/chara/6/kurumi_smile.png"  ]
-[return] 
