@@ -1,0 +1,8 @@
+[preload  storage="./data/bgimage/room.jpg"  ]
+[preload  storage="./data/fgimage/chara/2/bchan_R1.png"  ]
+[preload  storage="./data/fgimage/chara/2/bchan_L5.png"  ]
+[preload  storage="./data/fgimage/chara/2/bchan_L2.png"  ]
+[preload  storage="./data/fgimage/chara/2/bchan_L4.png"  ]
+[preload  storage="./data/fgimage/chara/2/bchan_L3.png"  ]
+[preload  storage="./data/fgimage/chara/2/bchan_L1.png"  ]
+[return]

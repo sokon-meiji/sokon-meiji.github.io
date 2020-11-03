@@ -1,0 +1,6 @@
+[preload  storage="./data/bgimage/theater.jpg"  ]
+[preload  storage="./data/fgimage/chara/5/karin_jitome_tere.png"  ]
+[preload  storage="./data/fgimage/chara/5/karin_nikkori_kuchihiraki.png"  ]
+[preload  storage="./data/fgimage/chara/5/karin_ukiuki_tere.png"  ]
+[preload  storage="./data/fgimage/chara/5/karin_kuchihirakitere.png"  ]
+[return]

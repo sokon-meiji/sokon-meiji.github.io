@@ -1,0 +1,5 @@
+[preload  storage="./data/bgimage/game.jpg"  ]
+[preload  storage="./data/bgimage/museum.jpg"  ]
+[preload  storage="./data/bgimage/nakanoStation_(1).jpg"  ]
+[preload  storage="./data/bgimage/broadway.jpg"  ]
+[return]

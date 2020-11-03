@@ -1,0 +1,5 @@
+[preload  storage="./data/bgimage/white_back.png"  ]
+[preload  storage="./data/fgimage/chara/6/kurumi_ridicule.png"  ]
+[preload  storage="./data/fgimage/chara/6/kurumi_smile.png"  ]
+[preload  storage="./data/bgimage/BlackEnding.png"  ]
+[return]
