@@ -114,7 +114,7 @@ nav-menu: true
 				2017年度はメンバーが合作したゲームの展示や作品集の頒布、2016年度はDJイベントを企画しました。
                 </p>
                 <ul class="actions">
-                    <li><a href="3-contents.html" class="button">作品をみる</a></li>
+                    <li><a href="4-meidaisai.html" class="button">作品をみる</a></li>
                 </ul>
 			</div>
 		</div>
