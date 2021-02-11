@@ -14,6 +14,7 @@
         {% endif %}
 	{% endif %}
 	{% endfor %}
+	
 	{% for page in site.pages limit:site.tiles-count %}
 	{% if site.tiles-source == 'pages' %}
         <article>
@@ -27,4 +28,18 @@
         </article>
 	{% endif %}
 	{% endfor %}
+
+	{% if site.tiles-source == "sokon" %}
+	{% for item in site.data.groups %}
+	<article ontouchstart="">
+                <span class="image" >
+                        <img src="{{ item.image }}" alt="" />
+                </span>
+                <header class="major">
+                        <h3><a href="{{ item.link }}" class="link">{{ item.name }}</a></h3>
+                        <p>{{ item.description }}</p>
+                </header>
+        </article>
+	{% endfor %}
+	{% endif %}
 </section>

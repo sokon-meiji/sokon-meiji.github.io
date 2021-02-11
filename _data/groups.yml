@@ -1,0 +1,12 @@
+- name: イラスト班
+  link: /illust/
+  description: Digital Artists
+  image: assets/images/groups/artists_tp.png
+- name: 音楽班
+  link: /music/
+  description: Digital Composers
+  image: assets/images/groups/composers_tp.png
+- name: ゲーム班
+  link: /game/
+  description: Game Developers
+  image: assets/images/groups/game_developers_tp.png
