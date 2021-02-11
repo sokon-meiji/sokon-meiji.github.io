@@ -1,0 +1,14 @@
+- name: HOME
+  link: /
+- name: 活動内容
+  link: /1-about.html
+- name: 班紹介
+  link: /2-groups.html
+- name: 明大祭アーカイブス
+  link: /4-meidaisai.html
+- name: イベント
+  link: /5-events.html
+- name: よくある質問
+  link: /6-faq.html
+- name: お問い合わせ
+  link: /7-contact.html
