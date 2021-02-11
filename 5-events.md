@@ -17,5 +17,4 @@ nav-menu: true
 - `【サークル外参加可能】`と書いてあるイベントはサークル外の方も参加できます
 
 **[Twitter](https://twitter.com/ccc_sokon)でも随時イベント情報を発信しています**
-
-**[ATND](https://atnd.org/groups/sokon)では参加型イベントを公開しています**
+<!-- **[ATND](https://atnd.org/groups/sokon)では参加型イベントを公開しています** -->
