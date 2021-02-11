@@ -29,17 +29,23 @@
 	{% endif %}
 	{% endfor %}
 
+	<!-- tiles-sourceがsokonの場合 -->
+	<!-- _data/groups.ymlを元にタイルを生成する-->
 	{% if site.tiles-source == "sokon" %}
 	{% for item in site.data.groups %}
+	{% for page in site.pages %}
+	{% if item.url == page.url %}
 	<article ontouchstart="">
                 <span class="image" >
-                        <img src="{{ item.image }}" alt="" />
+                        <img src="{{ page.image }}" alt="" />
                 </span>
                 <header class="major">
-                        <h3><a href="{{ item.link }}" class="link">{{ item.name }}</a></h3>
-                        <p>{{ item.description }}</p>
+                        <h3><a href="{{ page.url }}" class="link">{{ page.title }}</a></h3>
+                        <p>{{ page.description }}</p>
                 </header>
         </article>
+	[% endif %}
+	{% endfor %}
 	{% endfor %}
 	{% endif %}
 </section>
