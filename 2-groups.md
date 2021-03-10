@@ -17,35 +17,39 @@ author: null
 			<h2>班制度</h2>
 		</header>
 		<p>
-        弊サークルは<a href="./2017/04/05/composers.html">音楽班</a>、<a href="./2020/03/30/game_developers.html">ゲーム班</a>、<a href="./2017/04/03/video_producers.html">映像班</a>、<a href="./2017/04/02/artists.html">イラスト班</a>の4つの班に分かれて活動しています。
+        弊サークルは<a href="/illust/">イラスト班</a>、<a href="/music/">音楽班</a>、<a href="/game/">ゲーム班</a>の3つの班に分かれて活動しています。
         </p>
 	</div>
 </section>
 
 <!-- Two -->
 <section id="two" class="spotlights">
-	{% for post in site.posts limit:site.tiles-count %}
-	{% if site.tiles-source == 'posts' %}
-	{% if post.type != 'meidaisai' %}
+	{% if site.tiles-source == 'sokon' %}
+	{% for item in site.data.groups %}
+	{% for page in site.pages %}
+	{% if item.link == page.url %}
+	
 	<section>
-		<a href="{{ post.url  | relative_url }}" class="image position-bottom">
-			<img src="{{ post.image }}" alt="{{ post.title }}" data-position="center center" />
+		<a href="{{ page.url  | relative_url }}" class="image position-bottom">
+			<img src="{{ page.image }}" alt="{{ page.title }}" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3><a href="{{ post.url  | relative_url }}" class="link">{{ post.title }}</a></h3>
+					<h3><a href="{{ page.url  | relative_url }}" class="link">{{ page.title }}</a></h3>
 				</header>
-				<p>{{ post.overview }}</p>
+				<p>{{ page.overview }}</p>
 				<ul class="actions">
-					<li><a href="{{ post.url  | relative_url }}" class="button">詳しくみる</a></li>
+					<li><a href="{{ page.url  | relative_url }}" class="button">詳しくみる</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
-	{% endif %}
+
 	{% endif %}
 	{% endfor %}
+	{% endfor %}
+	{% endif %}
 </section>
 
 </div>

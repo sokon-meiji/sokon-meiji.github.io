@@ -66,7 +66,7 @@ nav-menu: true
         </dl>
         <br>
         <ul class="actions">
-            <li><a href="5-contact.html" class="button">お問い合わせはこちら</a></li>
+            <li><a href="7-contact.html" class="button">お問い合わせはこちら</a></li>
         </ul>
 	</div>
 </section>

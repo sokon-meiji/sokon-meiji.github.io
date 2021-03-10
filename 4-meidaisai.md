@@ -22,7 +22,7 @@ author: null
 <!-- Two -->
 <section id="two" class="spotlights">
 	{% for post in site.posts limit:site.tiles-count %}
-	{% if site.tiles-source == 'posts' %}
+
     {% if post.type == 'meidaisai' %}
 	<section>
 		<a href="{{ post.url  | relative_url }}" class="image position-bottom">
@@ -40,7 +40,6 @@ author: null
 			</div>
 		</div>
 	</section>
-    {% endif %}
 	{% endif %}
 	{% endfor %}
 </section>

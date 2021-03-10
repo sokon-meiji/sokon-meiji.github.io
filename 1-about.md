@@ -17,10 +17,10 @@ nav-menu: true
 		</header>
 		<p>
 	        総合コンテンツ制作サークル(総コン)は <a href="https://www.meiji.ac.jp/koho/campus_guide/nakano/access.html"><strong>明治大学中野キャンパス</strong></a> を拠点として活動しています。<br>
-    	    <a href="./2017/04/05/composers.html">音楽班</a>、<a href="./2020/03/30/game_developers.html">ゲーム班</a>、<a href="./2017/04/03/video_producers.html">映像班</a>、<a href="./2017/04/02/artists.html">イラスト班</a>、の4つの班に分かれて活動しています。
+    	    <a href="/illust/">イラスト班</a>、<a href="/music/">音楽班</a>、<a href="/game/">ゲーム班</a>の3つの班に分かれて活動しています。
         </p>
 		<p>
-			中野キャンパスで2013年6月に創設し、今年度で7年目になります。
+			中野キャンパスで2013年6月に創設し、今年度で9年目になります。
 		</p>
         <ul class="actions">
             <li><a href="#four" class="button next scrolly">入会する</a></li>
@@ -45,7 +45,7 @@ nav-menu: true
 				他にもサークル外の人も参加可能な講座を不定期で開催しています。
 				</p>
 				<ul class="actions">
-                    <li><a href="4-events.html" class="button">イベントをみる</a></li>
+                    <li><a href="5-events.html" class="button">イベントをみる</a></li>
                 </ul>
 			</div>
 		</div>

@@ -32,6 +32,17 @@
 	<!-- tiles-sourceがsokonの場合 -->
 	<!-- _data/groups.ymlを元にタイルを生成する-->
 	{% if site.tiles-source == "sokon" %}
+	
+	<article ontouchstart="">
+	  <span class="image">
+	    <img src="/assets/images/ccc_1920x.png" alt="">
+	  </span>
+	  <header class="major">
+	    <h3><a href="1-about.html" class="link">活動内容</a></h3>
+	    <p>what we do</p>
+	  </header>
+	</article>
+
 	{% for item in site.data.groups %}
 	{% for page in site.pages %}
 	{% if item.link == page.url %}
