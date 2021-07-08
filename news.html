@@ -1,0 +1,42 @@
+---
+title: 作品紹介
+layout: page
+description: null
+image: null
+nav-menu: true
+---
+
+<!-- Main -->
+<div id="main">
+    <div class="inner">
+        <header class="major">
+            <h1>{{ page.title }}</h1>
+        </header>
+        <section id="one" class="spotlights">
+
+            {% for work in site.data.works %}
+                <section>
+                    <div class="image">
+                        <img src="" data-position="center center" id="img{{ forloop.index0 }}">
+                    </div>
+                    <div class="content">
+                        <div class="inner">
+                            {{ work.date }} - 【{{ work.worker }}】<a href="{{ work.link }}">{{ work.title }}</a>
+                        </div>
+                    </div>
+                    <script>
+                        (function() {
+                            const ogpApiUrl = "https://sokon-ogp-api.vercel.app/api/ogp?url=";
+                            const url = ogpApiUrl + "{{ work.link }}";
+                            const img = document.getElementById("img{{ forloop.index0 }}");
+                            fetch(url).then(res => res.text()).then(text => {
+                                if (text !== "error") img.src = JSON.parse(text).image;
+                            });
+                        })();
+                    </script>
+                </section>
+            {% endfor %}
+
+        </section>
+    </div>
+</div>
