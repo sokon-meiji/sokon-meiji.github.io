@@ -6,50 +6,87 @@
 -->
 <html>
 
-{% include head.html %}
+    {% include head.html %}
 
-<body>
+    <body>
 
-    {% include header.html %}
+        {% include header.html %}
 
-    <!-- Banner -->
-    <section id="banner" class="major">
-        <div class="inner">
-            <header class="major">
-                <h1 style="word-break: keep-all">総合コンテンツ<span style="font-size: 0"> </span>制作サークル</h1>
-            </header>
-            <div class="content">
-                <p style="text-transform: uppercase;">{{ site.description }}</p>
-                <ul class="actions">
-                    <li><a href="#two" class="button next scrolly">詳しくみる</a></li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Main -->
-    <div id="main">
-
-        <!-- One -->
-        {% include tiles.html %}
-
-        <!-- Two -->
-        <section id="two">
+        <!-- Banner -->
+        <section id="banner" class="major">
             <div class="inner">
                 <header class="major">
-                    <h2>About</h2>
+                    <h1 style="word-break: keep-all">総合コンテンツ<span style="font-size: 0"> </span>制作サークル</h1>
                 </header>
-                <p>{{ content }}</p>
-                <ul class="actions">
-                    <li><a href="1-about.html" class="button">活動をみる</a></li>
-                </ul>
+                <div class="content">
+                    <p style="text-transform: uppercase;">{{ site.description }}</p>
+                    <ul class="actions">
+                        <li><a href="#two" class="button next scrolly">詳しくみる</a></li>
+                    </ul>
+                </div>
             </div>
         </section>
 
-    </div>
+        <!-- Main -->
+        <div id="main">
 
-    {% include footer.html %}
+            <div class="inner">
+                <header class="major">
+                    <h2><a href="/news.html">最新情報</a></h2>
+                </header>
 
-</body>
+                <!-- Three -->
+                <section id="three" class="spotlights">
+                    {% for i in (0..2) %}
+                        {% assign works = site.data.works %}
+                        <section>
+                            <div class="image">
+                                <img src="" data-position="center center" id="img{{ forloop.index0 }}">
+                            </div>
+                            <div class="content">
+                                <div class="inner">
+                                    {{ works[i].date }} - 【{{ works[i].worker }}】<a href="{{ works[i].link }}">{{ works[i].title }}</a>
+                                </div>
+                            </div>
+                            <script>
+                                (function() {
+                                    const ogpApiUrl = "https://sokon-ogp-api.vercel.app/api/ogp?url=";
+                                    const url = ogpApiUrl + "{{ works[i].link }}";
+                                    const img = document.getElementById("img{{ forloop.index0 }}");
+                                    fetch(url).then(res => res.text()).then(text => {
+                                        if (text !== "error") img.src = JSON.parse(text).image;
+                                    });
+                                })();
+                            </script>
+                        </section>
+                    {% endfor %}
+                </section>
+
+                <ul class="actions">
+                    <li><a href="news.html" class="button next">もっと見る</a></li>
+                </ul>
+            </div>
+
+            <!-- One -->
+            {% include tiles.html %}
+
+            <!-- Two -->
+            <section id="two">
+                <div class="inner">
+                    <header class="major">
+                        <h2>About</h2>
+                    </header>
+                    <p>{{ content }}</p>
+                    <ul class="actions">
+                        <li><a href="1-about.html" class="button">活動をみる</a></li>
+                    </ul>
+                </div>
+            </section>
+
+        </div>
+
+        {% include footer.html %}
+
+    </body>
 
 </html>
