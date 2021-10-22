@@ -32,7 +32,7 @@
 
             <div class="inner">
                 <header class="major">
-                    <h2><a href="/news.html">最新情報</a></h2>
+                    <h2><a href="/news.html">最新作品</a></h2>
                 </header>
 
                 <!-- Three -->
@@ -45,7 +45,14 @@
                             </div>
                             <div class="content">
                                 <div class="inner">
-                                    {{ works[i].date }} - 【{{ works[i].worker }}】<a href="{{ works[i].link }}">{{ works[i].title }}</a>
+                                    <p>
+                                        {{ works[i].date }} - 【{{ works[i].worker }}】<a href="{{ works[i].link }}">{{ works[i].title }}</a>
+                                    </p>
+                                    {% if i == 2 %}
+                                    <ul class="actions">
+                                        <li><a href="news.html" class="button next">もっと見る</a></li>
+                                    </ul>
+                                    {% endif %}
                                 </div>
                             </div>
                             <script>
@@ -62,9 +69,7 @@
                     {% endfor %}
                 </section>
 
-                <ul class="actions">
-                    <li><a href="news.html" class="button next">もっと見る</a></li>
-                </ul>
+                
             </div>
 
             <!-- One -->
