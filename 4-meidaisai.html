@@ -25,8 +25,8 @@ author: null
 	{% if post.category == "meidaisai" %}
 	
 	<section>
-		<a href="{{ post.url  | relative_url }}" class="image position-bottom">
-			<img src="{{ post.image }}" alt="{{ post.title }}" data-position="center center" />
+		<a href="{{ post.url  | relative_url }}" class="image">
+			<img src="{{ post.image }}" alt="{{ post.title }}" data-position="center center" decoding="async" />
 		</a>
 		<div class="content">
 			<div class="inner">
