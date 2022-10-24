@@ -21,9 +21,9 @@ author: null
 
 <!-- Two -->
 <section id="two" class="spotlights">
-	{% for post in site.posts limit:site.tiles-count %}
-
-    {% if post.type == 'meidaisai' %}
+	{% for post in site.posts %}
+	{% if post.category == "meidaisai" %}
+	
 	<section>
 		<a href="{{ post.url  | relative_url }}" class="image position-bottom">
 			<img src="{{ post.image }}" alt="{{ post.title }}" data-position="center center" />
@@ -40,6 +40,7 @@ author: null
 			</div>
 		</div>
 	</section>
+
 	{% endif %}
 	{% endfor %}
 </section>
