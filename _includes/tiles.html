@@ -1,32 +1,33 @@
 <section id="one" class="tiles">
-	<!-- tiles-sourceがsokonの場合、
-	     _data/groups.ymlを元にタイルを生成する -->
-	{% if site.tiles-source == 'sokon' %}
-	
-	<article>
-	  <span class="image">
-	    <img src="/assets/images/ccc_1920x.png" alt="" width="1920" height="1080" decoding="async">
-	  </span>
-	  <header class="major">
-	    <h3><a href="1-about.html" class="link">活動内容</a></h3>
-	    <p>what we do</p>
-	  </header>
-	</article>
+  <!--
+    tiles-sourceがsokonの場合、
+    _data/groups.ymlを元にタイルを生成する
+  -->
+  <article>
+    <span class="image">
+      <img src="/assets/images/ccc_1920x.png" alt="" width="1920" height="1080" decoding="async">
+    </span>
+    <header class="major">
+      <h3><a href="1-about.html" class="link">活動内容</a></h3>
+      <p>what we do</p>
+    </header>
+  </article>
 
-	{% for item in site.data.groups %}
-	{% for page in site.pages %}
-	{% if item.link == page.url %}
-	<article>
-                <span class="image" >
-                        <img src="{{ page.image }}" alt="" width="2560" height="1440" decoding="async" />
-                </span>
-                <header class="major">
-                        <h3><a href="{{ page.url }}" class="link">{{ page.title }}</a></h3>
-                        <p>{{ page.description }}</p>
-                </header>
+  {% for item in site.data.groups %}
+    {% for page in site.pages %}
+      {% if item.link == page.url %}
+        <article>
+          <span class="image">
+            <img src="{{ page.image }}" alt="" width="2560" height="1440" decoding="async">
+          </span>
+          <header class="major">
+            <h3>
+              <a href="{{ page.url }}" class="link">{{ page.title }}</a>
+            </h3>
+            <p>{{ page.description }}</p>
+          </header>
         </article>
-	{% endif %}
-	{% endfor %}
-	{% endfor %}
-	{% endif %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
 </section>
