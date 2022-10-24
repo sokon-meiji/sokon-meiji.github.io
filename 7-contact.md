@@ -8,6 +8,6 @@ nav-menu: true
 
 お問い合せは以下より承ります。
 
-- [フォーム](https://docs.google.com/forms/d/e/1FAIpQLSfzJvGY-KXIyi5A3gJcnGkkSEkPNqVMqs8QeIfJR92753lWnQ/viewform?usp=sf_link)
+- [フォーム](https://forms.gle/EXx2jHA8Zo2Q1FyJ6)
 
 入会をご希望の方は[こちら](1-about.html#four)をご覧ください。
