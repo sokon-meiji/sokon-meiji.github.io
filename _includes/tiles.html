@@ -1,41 +1,11 @@
 <section id="one" class="tiles">
-	{% for post in site.posts limit:site.tiles-count %}
-	{% if site.tiles-source == 'posts' %}
-        {% if post.type != 'meidaisai' %}
-        <article ontouchstart="">
-                <span class="image" >
-                        <img src="{{ post.image }}" alt="" />
-                </span>
-                <header class="major">
-                        <h3><a href="{{ post.url  | relative_url }}" class="link">{{ post.title }}</a></h3>
-                        <p>{{ post.description }}</p>
-                </header>
-        </article>
-        {% endif %}
-	{% endif %}
-	{% endfor %}
+	<!-- tiles-sourceがsokonの場合、
+	     _data/groups.ymlを元にタイルを生成する -->
+	{% if site.tiles-source == 'sokon' %}
 	
-	{% for page in site.pages limit:site.tiles-count %}
-	{% if site.tiles-source == 'pages' %}
-        <article>
-                <span class="image">
-                        <img src="{{ page.image }}" alt="" />
-                </span>
-                <header class="major">
-                        <h3><a href="{{ page.url | relative_url  }}" class="link">{{ page.title }}</a></h3>
-                        <p>{{ page.description }}</p>
-                </header>
-        </article>
-	{% endif %}
-	{% endfor %}
-
-	<!-- tiles-sourceがsokonの場合 -->
-	<!-- _data/groups.ymlを元にタイルを生成する-->
-	{% if site.tiles-source == "sokon" %}
-	
-	<article ontouchstart="">
+	<article>
 	  <span class="image">
-	    <img src="/assets/images/ccc_1920x.png" alt="">
+	    <img src="/assets/images/ccc_1920x.png" alt="" width="1920" height="1080" decoding="async">
 	  </span>
 	  <header class="major">
 	    <h3><a href="1-about.html" class="link">活動内容</a></h3>
@@ -46,9 +16,9 @@
 	{% for item in site.data.groups %}
 	{% for page in site.pages %}
 	{% if item.link == page.url %}
-	<article ontouchstart="">
+	<article>
                 <span class="image" >
-                        <img src="{{ page.image }}" alt="" />
+                        <img src="{{ page.image }}" alt="" width="2560" height="1440" decoding="async" />
                 </span>
                 <header class="major">
                         <h3><a href="{{ page.url }}" class="link">{{ page.title }}</a></h3>
