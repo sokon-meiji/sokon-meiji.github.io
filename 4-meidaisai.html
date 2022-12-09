@@ -1,0 +1,45 @@
+---
+title: 明大祭アーカイブス
+layout: post
+nav-menu: true
+description: null
+image: null
+author: null
+---
+<!-- Main -->
+<div id="main">
+  <!-- One -->
+  <section id="one">
+    <div class="inner">
+      <p>
+        総合コンテンツ制作サークルが参加した明大祭のアーカイブページです。各年度の実施の様子や作品をご覧いただけます！
+      </p>
+    </div>
+  </section>
+
+  <!-- Two -->
+  <section id="two" class="spotlights">
+    {% for post in site.posts %}
+      {% if post.category == 'meidaisai' %}
+        <section>
+          <a href="{{ post.url  | relative_url }}" class="image">
+            <img src="{{ post.image }}" alt="{{ post.title }}" data-position="center center" decoding="async">
+          </a>
+          <div class="content">
+            <div class="inner">
+              <header class="major">
+                <h3>
+                  <a href="{{ post.url  | relative_url }}" class="link">{{ post.title }}</a>
+                </h3>
+              </header>
+              <p>{{ post.overview }}</p>
+              <ul class="actions">
+                <li><a href="{{ post.url  | relative_url }}" class="button">詳しくみる</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      {% endif %}
+    {% endfor %}
+  </section>
+</div>
