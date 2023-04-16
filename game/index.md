@@ -9,5 +9,6 @@ overview: "プログラミングでゲーム作品を制作します。初心者
 {{page.overview}}
 
 ## リンク
+
 - [Twitter](https://twitter.com/sokon_p)
 - [GitHub](https://github.com/ccc-sokon)
