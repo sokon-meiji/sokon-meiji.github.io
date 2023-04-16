@@ -1,7 +1,12 @@
 <section id="one" class="tiles">
   <article>
     <span class="image">
-      <img src="/assets/images/ccc_1920x.png" alt="" width="1920" height="1080" decoding="async">
+      <img
+        src="/assets/images/ccc_1920x.png"
+        alt=""
+        width="1920"
+        height="1080"
+        decoding="async">
     </span>
     <header class="major">
       <h3>
@@ -12,20 +17,21 @@
   </article>
 
   {% for item in site.data.groups %}
-    {% for page in site.pages %}
-      {% if item.link == page.url %}
-        <article>
-          <span class="image">
-            <img src="{{ page.image }}" alt="" width="2560" height="1440" decoding="async">
-          </span>
-          <header class="major">
-            <h3>
-              <a href="{{ page.url }}" class="link">{{ page.title }}</a>
-            </h3>
-            <p>{{ page.description }}</p>
-          </header>
-        </article>
-      {% endif %}
-    {% endfor %}
+    <article>
+      <span class="image">
+        <img
+          src="{{ item.image }}"
+          alt=""
+          width="2560"
+          height="1440"
+          decoding="async">
+      </span>
+      <header class="major">
+        <h3>
+          <a href="{{ item.link }}" class="link">{{ item.name }}</a>
+        </h3>
+        <p>{{ item.description }}</p>
+      </header>
+    </article>
   {% endfor %}
 </section>
